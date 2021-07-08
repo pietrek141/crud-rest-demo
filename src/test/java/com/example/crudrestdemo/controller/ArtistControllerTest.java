@@ -39,7 +39,7 @@ class ArtistControllerTest {
         artist.setAlbums(Collections.singletonList(album));
         artistController.addArtist(artist);
         List<Artist> allArtist = artistController.getAllArtist().getBody();*/
-        int a = 10;
+        int a = 9;
 
         assertEquals(10, a);
     }
