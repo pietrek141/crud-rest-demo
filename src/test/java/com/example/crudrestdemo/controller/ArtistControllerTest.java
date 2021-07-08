@@ -40,6 +40,7 @@ class ArtistControllerTest {
         artistController.addArtist(artist);
         List<Artist> allArtist = artistController.getAllArtist().getBody();*/
         int a = 10;
+
         assertEquals(10, a);
     }
 
